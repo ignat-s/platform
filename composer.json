@@ -3,7 +3,7 @@
 	"description": "Business Application Platform (BAP)",
 	"homepage": "https://github.com/orocrm/platform.git",
 	"license": "MIT",
-	"require": 
+	"require":
 	{
 		"php": ">=5.4.4",
 		"symfony/symfony": "v2.3.4",
@@ -16,7 +16,7 @@
 		"symfony/swiftmailer-bundle": "v2.3.4",
 		"symfony/monolog-bundle": "2.3.x-dev#03ed73bc11367b3156cc21f22ac37c7f70fcd10a",
 		"sensio/distribution-bundle": "dev-master#45664e203fd1364705091a58971cc6bd94fb5189",
-		"sensio/framework-extra-bundle": "dev-master#403e13e384d8a81c9c8a1adfe89356e9849c14ff",
+		"sensio/framework-extra-bundle": "2.3.*",
 		"sensio/generator-bundle": "dev-master#e2572e829cc7b3d37c8fc46c9dfad9362378aad1",
 		"incenteev/composer-parameter-handler": "dev-master#bc06242a63298affc72d2089f93d8986a6217c4c",
 		"jms/job-queue-bundle": "dev-master#46e6c362dd94140b75d0a2ae986d65e6086d0a76",
@@ -49,9 +49,9 @@
 		"sylius/flow-bundle": "dev-master#84c4451f257449d6c4494dd4db3cd6b0d93d5db7"
 	},
 	"minimum-stability": "dev",
-	"autoload": 
+	"autoload":
 	{
-		"psr-0": 
+		"psr-0":
 		{
 			"Oro\\Bundle": "src/"
 		}
